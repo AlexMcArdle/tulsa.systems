@@ -24,7 +24,7 @@
     integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
 </head>
 
-<body>
+<body class="">
   <header>
     <nav class="navbar navbar-light bg-light">
       <span class="mx-auto">
@@ -34,19 +34,19 @@
   </header>
 
   <div class="main-body mt-3">
-
+    <div class="container">
+      <!-- body -->
+    </div>
   </div>
 
   <footer class="fixed-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <pre>copyright &copy; <span id="copyright-year">2019</span> tulsa.systems</pre>
-          <script type="text/javascript">
-            // set the copyright year
-            document.getElementById('copyright-year').innerText = new Date().getFullYear();
-          </script>
-        </div>
+    <div class="navbar navbar-light bg-light">
+      <div class="mx-auto">
+        <pre class="my-0">copyright &copy; <span id="copyright-year">2019</span> tulsa.systems</pre>
+        <script type="text/javascript">
+          // set the copyright year
+          document.getElementById('copyright-year').innerText = new Date().getFullYear();
+        </script>
       </div>
     </div>
   </footer>
